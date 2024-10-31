@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+video,
+svg,
+img,
+picture,
+canvas {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* GENERAL RULES */
+
+body {
+  font-family: "Inter";
+  color: var(--white);
+  background: var(--Grey-900);
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+ul {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.profile {
+  background-color: var(--Grey-800);
+  border-radius: 8px;
+  width: 330px;
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+.profile__bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.profile__bio img {
+  border-radius: 50%;
+  width: 85px;
+  margin-bottom: 1.3rem;
+}
+
+.profile__bio h1 {
+  font-size: 1.5rem;
+  font-weight: var(--fw-700);
+}
+
+.profile__bio p {
+  color: var(--green);
+  font-size: 0.8rem;
+  font-weight: var(--fw-700);
+}
+
+q {
+  font-weight: var(--fw-700);
+  font-size: 0.75rem;
+  margin-top: 0.8rem;
+  display: block;
+  text-align: center;
+}
+
+li {
+  background: var(--Grey-700);
+  padding: 1rem 2rem;
+  margin-top: 0.875rem;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 8px;
+}
+
+li:hover,
+li:active {
+  background-color: var(--green);
+  cursor: pointer;
+  color: var(--Grey-900);
+  font-weight: var(--fw-700);
+}
+
+.attribution {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--green);
+  margin-bottom: 1rem;
+}
