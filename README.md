@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/riskymind/social_links_profile)
-- Live Site URL: [](https://social-links-profile-two-blond.vercel.app/)
+- Solution URL: [Solution](https://github.com/riskymind/social_links_profile)
+- Live Site URL: [Go Live](https://social-links-profile-two-blond.vercel.app/)
 
 ### Built with
 
